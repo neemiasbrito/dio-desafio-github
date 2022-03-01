@@ -1,0 +1,89 @@
+Comandos básicos do Git
+1. git --version
+   Para conhecer a versão de Git..
+2. git init
+   Para criar um repositório local
+    Repositório git vazio inicializado em ..../RepositoryName/.git/
+3. git bash.exe 
+    É como git cmd(Command Prompt)
+4. git status
+    Para saber arquivos não-encenados/não rastreados/ Arquivos do espaço de trabalho/ 
+    Arquivos encenados/Arquivos modificados
+5. git add app1.txt
+   Usado para adicionar arquivos individuais na Área de Estágio
+6. git add . 
+   Aqui. ponto significa todos os arquivos.
+   Usado para adicionar todos os arquivos na Área de Estágio.
+7. git rm --cached -r . --cached
+    Remova arquivos na Área Ensareia para manter no Espaço de Trabalho..
+8. git rm --cached one.txt
+    Remova o arquivo na Área Ensálida para manter no Espaço de Trabalho.
+9. git commit -m "your message"
+    Aqui -m é uma mensagem
+     Commit arquivos selecionados no Repositório Local.
+10. git config --global user.email " Your Email"
+     Suas credenciais de Git(these Details Stored in control panel>Users and Accounts> credential Manager>Windows Credentials)
+11. git config --global user.name " Your User Name"
+     Suas credenciais de Git(these Details Stored in control panel>Users and Accounts> credential Manager>Windows Credentials)
+12. git remote add origin https://github.com/UserName/RepositoryName.git
+    Criar repositório remoto adicionar acima.
+13. git push -u origin main
+     Arquivos do Repositório local armazenados em um repositório remoto.
+     Envie arquivos do Repositório Local para o Repositório Remoto.
+ 14. git push 
+     Segundo empurrão para frente usar como git push
+     Envie arquivos do Repositório Local para o Repositório Remoto.
+15. git pull
+     Buscar arquivos do Remoto para o Repositório Local.
+16. git restore one.txt
+     Aqui um.txt é um nome de arquivo com uma extensão usada para desfazer/remover modificações em arquivos.
+     Para cancelar alterações de arquivos no espaço de trabalho ou para evitar alterações.
+17 git commit 
+      Para a mensagem de compromisso de string longo, então aparece a prensa terminal I para inserir o modo enviar mensagem de compromisso :wq para salvar e sair pressione Esc.
+18. git pull origin main
+O nome principal < origem de tração principal de origem de primeira vez>< usado para recuperar arquivos do repositório remoto para a pasta Local Repository+Workspace.19. git checkout
+Usado para verificar qualquer ramo atualizado ou não.
+ou Mudando de um ramo para outro ramo.
+20. git diff
+ Para ver o código modificado de arquivos ou
+alterações feitas em um arquivo ou
+Para verificar as mudanças na área de trabalho e na área de estágio.
+21. git diff --staged
+Para ver o código modificado de arquivos ou
+alterações feitas em um arquivo ou
+Exibe as diferenças entre arquivos em dois commits ou
+Para verificar as alterações na área encenada e na área do repositório local.
+22. git diff head
+ Para ver o código modificado de arquivos ou
+ alterações feitas em um arquivo ou
+ Exibe as diferenças entre arquivos em dois commits ou
+ Para verificar as mudanças na área de trabalho e na área de repositório local.
+ Histórico de notas no repositório remoto para ver modificações em arquivos a cada compromisso e histórico usado para comparar primeiro compromisso e segundo compromisso.
+23. cls
+ limpar a linha de comando cmd
+24. git branch
+  Ponto de nota: todos os comandos relacionados a filiais funcionam após a adição de URL remota no repositório local.
+  Para ver o nome de ramo de trabalho correto cor verde ou para ver todos os ramos disponíveis cor preta.
+25. git branch branch_name
+  Usado para criar um novo ramo
+26. git checkout branch_name
+ Mude para branch_name de filiais
+27. git checkout -b branch_name
+Para criar um novo ramo, mude para esse novo ramo.
+28. git switch branch_name
+Mude para branch_name de filiais
+29. git switch -c branch_name
+Para criar um novo ramo, mude para esse novo ramo.
+30. Caused because of: git pull origin master
+O nome principal < origem de tração principal de origem de primeira vez>< usado para recuperar arquivos do repositório remoto para a pasta Local Repository+Workspace.
+Erro: recusando-se a mesclar histórias não relacionadas
+Solução: git pull origin master --allow-unrelated-histories
+31. how to Git copy changes from one branch to another
+git checkout BranchB
+git mesclar BranchA
+git empurrar origem BranchB
+32. git branch -d Branch_Name
+Usado para excluir uma filial já existente no Repositório Local.
+33. git log
+Para ver todas as mensagens de compromisso com id's de compromisso.
+--------------FIM--------------
